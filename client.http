@@ -10,3 +10,13 @@ GET {{baseUrl}}/health
 
 #Get rooms
 GET {{baseUrl}}/rooms
+
+###
+
+# Create room
+POST {{baseUrl}}/rooms
+
+{
+    "name": "Sala de teste",
+    "description": "Essa é uma sala de teste"
+}
